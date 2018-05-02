@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace CmsShoppingCart.Controllers
+namespace CmsShoppingCart.Areas.Admin.Controllers
 {
-    public class AdminController : Controller
+    public class DashboardController : Controller
     {
-        // GET: Admin
+        // GET: Admin/Dashboard
         public ActionResult Index()
         {
             return View();
